@@ -4,6 +4,8 @@ public class Topic {
 
 
     private String id;
+    private String name;
+    private String description;
 
     public Topic() {
 
@@ -38,8 +40,5 @@ public class Topic {
     public void setDescription(String description) {
         this.description = description;
     }
-
-    private String name;
-    private String description;
 
 }
